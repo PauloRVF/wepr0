@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.Model;
+using wepr0.core.Model;
 
-namespace wipro.core.Data.Mapping
+namespace wepr0.core.Data.Mapping
 {
     public class MoedaMap : IEntityTypeConfiguration<Moeda>
     {

@@ -10,10 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using wipro.core;
-using wipro.core.Data.Context;
+using wepr0.core;
+using wepr0.core.Data.Context;
 
-namespace wipro.api
+namespace wepr0.api
 {
     public class Startup
     {

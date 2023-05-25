@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wipro.api
+namespace wepr0.api
 {
     public class Program
     {

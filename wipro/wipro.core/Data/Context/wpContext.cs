@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.Data.Mapping;
-using wipro.core.Model;
+using wepr0.core.Data.Mapping;
+using wepr0.core.Model;
 
-namespace wipro.core.Data.Context
+namespace wepr0.core.Data.Context
 {
     public class wpContext : DbContext
     {
@@ -22,7 +22,7 @@ namespace wipro.core.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-489F5CM\SQLEXPRESS;Initial Catalog=wipro; User Id=sa; Password=123;");
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-489F5CM\SQLEXPRESS;Initial Catalog=wepr0; User Id=sa; Password=123;");
         }
 
         public IDbContextTransaction InitTransaction()

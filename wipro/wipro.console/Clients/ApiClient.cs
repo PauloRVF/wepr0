@@ -6,9 +6,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.DTO;
+using wepr0.core.DTO;
 
-namespace wipro.console.Clients
+namespace wepr0.console.Clients
 {
     public class ApiClient
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wipro.core.DTO
+namespace wepr0.core.DTO
 {
     public class MoedaDTO
     {

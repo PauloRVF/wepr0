@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "wipro.api": {
+    "wepr0.api": {
       "commandName": "Project",
       "launchUrl": "weatherforecast",
       "environmentVariables": {

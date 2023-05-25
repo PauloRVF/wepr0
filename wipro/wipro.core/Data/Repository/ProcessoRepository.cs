@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.Data.Context;
-using wipro.core.Interface.Repository;
-using wipro.core.Model;
+using wepr0.core.Data.Context;
+using wepr0.core.Interface.Repository;
+using wepr0.core.Model;
 
-namespace wipro.core.Data.Repository
+namespace wepr0.core.Data.Repository
 {
     public class ProcessoRepository : IProcessoRepository
     {

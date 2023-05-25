@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using wipro.core.DTO;
-using wipro.core.Interface.Service;
+using wepr0.core.DTO;
+using wepr0.core.Interface.Service;
 
-namespace wipro.api.Controllers
+namespace wepr0.api.Controllers
 {
     [Route("")]
     public class ProcessoController : Controller

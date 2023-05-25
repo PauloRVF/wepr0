@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wipro.core.Model
+namespace wepr0.core.Model
 {
     public class Processo
     {

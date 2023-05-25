@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.DTO;
-using wipro.core.Interface.Repository;
-using wipro.core.Interface.Service;
-using wipro.core.Model;
+using wepr0.core.DTO;
+using wepr0.core.Interface.Repository;
+using wepr0.core.Interface.Service;
+using wepr0.core.Model;
 
-namespace wipro.core.Service
+namespace wepr0.core.Service
 {
     public class MoedaService : IMoedaService
     {

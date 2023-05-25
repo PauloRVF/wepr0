@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using wipro.core.Data.Context;
+using wepr0.core.Data.Context;
 
-namespace wipro.core.Migrations
+namespace wepr0.core.Migrations
 {
     [DbContext(typeof(wpContext))]
     [Migration("20210609135456_tblMoeda_dropTable")]
@@ -21,7 +21,7 @@ namespace wipro.core.Migrations
                 .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("wipro.core.Model.Moeda", b =>
+            modelBuilder.Entity("wepr0.core.Model.Moeda", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace wipro.core.Migrations
                     b.ToTable("Moeda");
                 });
 
-            modelBuilder.Entity("wipro.core.Model.Processo", b =>
+            modelBuilder.Entity("wepr0.core.Model.Processo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -59,9 +59,9 @@ namespace wipro.core.Migrations
                     b.ToTable("Processos");
                 });
 
-            modelBuilder.Entity("wipro.core.Model.Processo", b =>
+            modelBuilder.Entity("wepr0.core.Model.Processo", b =>
                 {
-                    b.HasOne("wipro.core.Model.Moeda", "Moeda")
+                    b.HasOne("wepr0.core.Model.Moeda", "Moeda")
                         .WithMany()
                         .HasForeignKey("MoedaId");
 

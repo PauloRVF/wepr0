@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\wipro.core\wipro.core.csproj" />
+    <ProjectReference Include="..\wepr0.core\wepr0.core.csproj" />
   </ItemGroup>
 
 </Project>

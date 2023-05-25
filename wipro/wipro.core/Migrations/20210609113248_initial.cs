@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace wipro.core.Migrations
+namespace wepr0.core.Migrations
 {
     public partial class initial : Migration
     {

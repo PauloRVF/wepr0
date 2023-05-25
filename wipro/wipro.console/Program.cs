@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Timers;
-using wipro.console.Clients;
-using wipro.core.DTO;
+using wepr0.console.Clients;
+using wepr0.core.DTO;
 using System.Linq;
-using wipro.core.Interface.Service;
+using wepr0.core.Interface.Service;
 using Microsoft.Extensions.DependencyInjection;
-using wipro.core.Service;
-using wipro.core;
-using wipro.core.Data.Context;
+using wepr0.core.Service;
+using wepr0.core;
+using wepr0.core.Data.Context;
 using CsvHelper.TypeConversion;
 
-namespace wipro.console
+namespace wepr0.console
 {
     class Program
     {

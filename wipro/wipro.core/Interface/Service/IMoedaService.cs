@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using wipro.core.DTO;
-using wipro.core.Model;
+using wepr0.core.DTO;
+using wepr0.core.Model;
 
-namespace wipro.core.Interface.Service
+namespace wepr0.core.Interface.Service
 {
     public interface IMoedaService
     {

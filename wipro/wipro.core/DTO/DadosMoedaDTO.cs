@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using CsvHelper.Configuration.Attributes;
 
-namespace wipro.core.DTO
+namespace wepr0.core.DTO
 {
     public class DadosMoedaDTO
     {
